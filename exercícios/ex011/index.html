@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Adaptar imagens</h1>
+    <p>Esse é meu teste para adaptar imagens</p>
+    <picture>
+    <source media="(max-width: 750px)" srcset="fotos/pequena.jpg">
+    <source media="(max-width: 1050px)" srcset="fotos/media.jpg"> 
+    <img src="fotos/grande.jpg" alt="Imagem Flexível">
+</picture>
+    <h2>Adicionando áudios ao site</h2>
+    <p>clique no play para iniciar</p>
+<audio preload="metadata" controls>
+    <source src="midia/y2meta.com - ONLY - DOLLAR (Dir. Nego Blood) (256 kbps).mp3"
+    type="audio.mpeg">
+    <p>Infelizmente não foi possivel reproduzir o seu áudio</p>
+    <a href="midia/y2meta.com - ONLY - DOLLAR (Dir. Nego Blood) (256 kbps).mp3"> clique aqui para baixar</a>
+</audio>
+</body>
+</html>
